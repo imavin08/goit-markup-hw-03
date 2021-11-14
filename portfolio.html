@@ -19,96 +19,123 @@
     <!--Шапка-->
     
     <header>
-        <nav>
-        <a class="link header-logo" href="./index.html">Web<span class="header-peace-logo">Studio</span></a>
-        
-        <ul class="header list ">
-            <li><a class="link header-link" href="./index.html">Студия</a></li>
-            <li><a class="link header-link current" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="link header-link" href="">Контакты</a></li>
-        </ul>
-        </nav>
-        
-        <ul class="list">
-            <li><a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link header-tel" href="tel:+380961111111">+380961111111</a></li>
-        </ul>
+        <div class="container header-container">
+            <nav class="header-navigation">
+                <a class="header-logo" href="./index.html">Web<span class="header-peace-logo">Studio</span></a>
+    
+                <ul class="header-list">
+                    <li class="header-item"><a class="header-link" href="./index.html">Студия</a></li>
+                    <li class="header-item"><a class="header-link current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="header-item"><a class="header-link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+    
+            <ul class="header-mailtel">
+                <li class="mail-item"><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="header-tel" href="tel:+380961111111">+380961111111</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- Главная секция -->
  <main>
      <section>
-    <ul class="list" >
-        <li><button type="button" class="btn-item">Все</button></li>
-        <li><button type="button" class="btn-item">Веб-сайты</button></li>
-        <li><button type="button" class="btn-item">Приложения</button></li>
-        <li><button type="button" class="btn-item">Дизайн</button></li>
-        <li><button type="button" class="btn-item">Маркетинг</button></li>
-    </ul>
-
-    <ul class="main list">
-        <li> 
-            <img src="./images/port1.jpg" alt="Страница сайта" width="370">
-            <h3 class="main-title">Технокряк</h3>
-            <p class="main-text">Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/port2.jpg" alt="Фото игра в баскетбол" width="370">
-            <h3 class="main-title">Постер New Orlean vs Golden Star</h3>
-            <p class="main-text">Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/port3.jpg" alt="Логотип ресторана" width="370">
-            <h3 class="main-title">Ресторан Seafood</h3>
-            <p class="main-text">Приложение</p>
-        </li>
-        <li>
-            <img src="./images/port4.jpg" alt="Наушники" width="370">
-            <h3 class="main-title">Проект Prime</h3>
-            <p class="main-text">Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/port5.jpg" alt="Две коробки" width="370">
-            <h3 class="main-title">Проект Boxes</h3>
-            <p class="main-text">Приложение</p>
-        </li>
-        <li>
-            <img src="./images/port6.jpg" alt="Монитор" width="370">
-            <h3 class="main-title">Inspiration has no Borders</h3>
-            <p class="main-text">Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/port7.jpg" alt="Открытая книга" width="370">
-            <h3>Издание Limited Edition</h3>
-            <p class="main-text">Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/port8.jpg" alt="Лейба компании" width="370">
-            <h3 class="main-title">Проект LAB</h3>
-            <p class="main-text">Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/port9.jpg" alt="Ноутбук" width="370">
-            <h3 class="main-title">Growing Business</h3>
-            <p class="main-text">Приложение</p>
-        </li>
-    </ul>
-    </section>
+         <div class="container">
+            <ul class="top-buttons">
+                <li class="main-btn"><button type="button" class="btn-item">Все</button></li>
+                <li class="main-btn"><button type="button" class="btn-item">Веб-сайты</button></li>
+                <li class="main-btn"><button type="button" class="btn-item">Приложения</button></li>
+                <li class="main-btn"><button type="button" class="btn-item">Дизайн</button></li>
+                <li class="main-btn"><button type="button" class="btn-item">Маркетинг</button></li>
+            </ul>
+            
+            <ul class="main">
+                <li>
+                    <img src="./images/port1.jpg" alt="Страница сайта" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Технокряк</h3>
+                        <p class="main-text">Веб-сайт</p>
+                    </div> 
+                </li>
+                <li>
+                    <img src="./images/port2.jpg" alt="Фото игра в баскетбол" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Постер New Orlean vs Golden Star</h3>
+                        <p class="main-text">Дизайн</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port3.jpg" alt="Логотип ресторана" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Ресторан Seafood</h3>
+                        <p class="main-text">Приложение</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port4.jpg" alt="Наушники" width="370"><div></div>
+                    <div class="main-border">
+                        <h3 class="main-title">Проект Prime</h3>
+                        <p class="main-text">Маркетинг</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port5.jpg" alt="Две коробки" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Проект Boxes</h3>
+                        <p class="main-text">Приложение</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port6.jpg" alt="Монитор" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Inspiration has no Borders</h3>
+                        <p class="main-text">Веб-сайт</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port7.jpg" alt="Открытая книга" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Издание Limited Edition</h3>
+                        <p class="main-text">Дизайн</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/port8.jpg" alt="Лейба компании" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Проект LAB</h3>
+                        <p class="main-text">Маркетинг</p>
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="./images/port9.jpg" alt="Ноутбук" width="370">
+                    <div class="main-border">
+                        <h3 class="main-title">Growing Business</h3>
+                        <p class="main-text">Приложение</p>
+                    </div>
+                </li>
+            </ul>
+            </section>
+         </div>
  </main>
 
     <!--Футер-->
 
     <footer class="footer">
-        <a class="link footer-logo" href="./index.html">Web<span class="footer-peace-logo">Studio</span></a>
-        <address>
-            <ul class="list">
-                <li>
-                    <a class="link location" href="https://goo.gl/maps/q2RPtuhEytgSzPxk9" target="_blank">г.Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li><a class="link mailtel" href="mailto:info@example.com">info@example.com</a></li>
-                <li><a class="link mailtel" href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="footer-logo" href="./index.html">Web<span class="footer-peace-logo">Studio</span></a>
+            <address>
+                <ul class="footer-item">
+                    <li>
+                        <a class="location" href="https://goo.gl/maps/q2RPtuhEytgSzPxk9" target="_blank">г.Киев, пр-т Леси
+                            Украинки, 26</a>
+                    </li>
+                    <li><a class="mail" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
+    
     </footer>
 </body>
 </html>
