@@ -56,7 +56,6 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent);
-  padding: 25px 0px;
   margin-right: 93px;
 }
 
@@ -70,6 +69,11 @@ button {
 
 .header-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link {
@@ -96,12 +100,13 @@ button {
 
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-container {
   display: flex;
+}
+
+header {
   border: 1px solid #ececec;
   border-top: none;
   border-left: none;
@@ -112,6 +117,8 @@ button {
   display: flex;
   align-items: center;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .mail-item {
@@ -141,12 +148,12 @@ button {
 
 .hero-title {
   align-content: center;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 
 .hero {
   background-color: var(--background);
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -218,7 +225,6 @@ button {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .aboutus-item:not(:last-child) {
@@ -259,7 +265,6 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -269,6 +274,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.ourteam-titletext {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -279,12 +288,15 @@ button {
 
 .ourteam {
   background-color: var(--background-portfolio-btn);
+  padding-bottom: 94px;
 }
 
 /* -----------Footer---------- */
 
 .footer {
   background-color: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -295,8 +307,7 @@ button {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent);
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -319,6 +330,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 9px;
+  display: block;
 }
 
 .mail {
@@ -328,6 +340,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-bottom: 9px;
+  display: block;
 }
 
 .tel {
@@ -351,10 +364,6 @@ button {
 .location:hover,
 .location:focus {
   color: var(--accent);
-}
-
-.footer-item {
-  padding-bottom: 60px;
 }
 
 /* --------- Portfolio----------- */
@@ -386,6 +395,12 @@ button {
 }
 
 /* ----------main------------------ */
+
+.main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 18px;
@@ -404,25 +419,31 @@ button {
   padding-bottom: 20px;
 }
 
-.top-buttons {
-  margin-top: 94px;
-  margin-bottom: 34px;
+.main-buttons {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.main {
+.main-item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 94px;
+}
+
+.main-link {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.main-link:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .main-border {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  margin-bottom: 30px;
   border-top: none;
+  padding: 20px 24px;
 }
 
 img {
