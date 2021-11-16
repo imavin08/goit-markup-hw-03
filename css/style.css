@@ -71,17 +71,15 @@ button {
   margin-right: 50px;
 }
 
-.header-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-link:hover,
@@ -117,8 +115,6 @@ header {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .mail-item {
@@ -132,6 +128,9 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-mail:hover,
@@ -232,7 +231,7 @@ header {
 }
 /* -----------ourwork----------- */
 
-.ourwork {
+.ourwork-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -245,6 +244,10 @@ header {
 .ourwork-item {
   display: flex;
   justify-content: space-between;
+}
+
+.ourwork {
+  padding-bottom: 94px;
 }
 
 /* -----------Team----------- */
@@ -407,8 +410,7 @@ header {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .main-text {
@@ -416,7 +418,6 @@ header {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  padding-bottom: 20px;
 }
 
 .main-buttons {
